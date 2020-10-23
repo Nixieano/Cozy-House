@@ -132,33 +132,3 @@ button:active, button:focus {
 .btn--beige:hover {
     background-color: #f8cbaa;
 }
-
-/*Info*/
-
-.info__heading {
-    font-size: 35px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.info__inner {
-    width: 100%;
-    max-width: 830px;
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
-}
-
-.info__titel * {
-    color: #4c4c4c;
-}
-
-/*Ofers*/
-
-.ofers {
-    padding: 115px 0;
-    color: #545454;
-    text-align: center;
-    width: 100%;
-    font-size: 35px;
-}
-
