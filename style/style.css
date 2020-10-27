@@ -112,7 +112,6 @@ p {
     display: inline-block;
     font-size: 17px;
     font-family: inherit;
-    padding: 20px 50px;
     border: 0;
     border-radius: 30px;
     color: #000000;
@@ -121,14 +120,23 @@ p {
     transition: background .2s linear;
 }
 
-button:active, button:focus {
-    outline: none;
-}
-
 .btn--beige {
+    background-color: #fddcc4;
+    padding: 20px 50px;
+}
+.btn--whi:focus {
     background-color: #fddcc4;
 }
 
+.btn--whi {
+    padding: 18px 45px;
+    background-color: transparent;
+    border: 2px solid #fddcc4;
+    border-radius: 50px;
+}
+.btn:active, .btn:focus {
+    outline: none;
+}
 .btn--beige:hover {
     background-color: #f8cbaa;
 }
@@ -143,6 +151,7 @@ button:active, button:focus {
 .info__inner {
     width: 100%;
     max-width: 830px;
+    height: 590px;
     display: flex;
     align-items: center;
     margin: 0 auto;
@@ -157,8 +166,18 @@ button:active, button:focus {
 .ofers {
     padding: 115px 0;
     color: #545454;
-    text-align: center;
+    background-color: #f6f6f6;
     width: 100%;
     font-size: 35px;
+    text-align: center;
+}
+
+.ofers__item {
+    height: 420px;
+    width: 270px;
+    text-align: center;
+    background-color: #fafafa;
+    margin: 70px 25px;
+    border-radius: 3px;
 }
 
