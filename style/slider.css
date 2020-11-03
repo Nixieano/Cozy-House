@@ -25,7 +25,7 @@
 .slider .slick-arrow.slick-prev {
     left: 0;
     background: url(../img/Arrows/long-left-arrow.png) 11px 17px no-repeat;
-    border-radius: 25px;
+    border-radius: 50%;
     border: 2px solid #fddcc4;
 } 
 
@@ -37,7 +37,7 @@
 .slider .slick-arrow.slick-next {
     right: 0;
     background: url(../img/Arrows/long-right-arrow.png) 11px 17px no-repeat;
-    border-radius: 25px;
+    border-radius: 50%;
     border: 2px solid #fddcc4;
 }
 
