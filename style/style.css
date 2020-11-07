@@ -394,3 +394,97 @@ p {
     font-size: 12px;
 }
 
+
+/*Footer*/
+
+.footer {
+    width: 100%;
+    background: url(../img/Footer/Слой\ 3.jpg) center 
+    no-repeat;
+    height: 360px;
+}
+
+.footer__inner {
+    max-width: 1170px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.footer__contacts {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__address {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+.footer__img {
+    width: 30%;
+}
+
+.footer__contacts-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    padding-top: 80px;
+}
+
+.footer__address-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    padding-top: 80px;
+}
+
+.footer__contacts-mail {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.footer__first-address  {
+    padding-top: 45px;
+    display: flex;
+    align-items: center;
+}
+
+.footer__contacts-mail .mail {
+    padding-left: 20px;
+    color: #f1cdb3;
+    cursor: pointer;
+    font-size: 20px;
+} 
+
+.footer__first-address .address {
+    padding-left: 20px;
+    color: #f1cdb3;
+    font-size: 20px;
+}
+
+.footer__contacts-phone {
+    padding-top: 35px;
+    display: flex;
+    align-items: center;
+    color: #f1cdb3;
+    font-size: 20px;
+}
+
+.footer__second-address {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    color: #f1cdb3;
+    font-size: 20px;
+}
+
+.footer__contacts-phone .phone {
+    padding-left: 20px;
+}
+
+.footer__second-address .address {
+    padding-left: 20px;
+}
